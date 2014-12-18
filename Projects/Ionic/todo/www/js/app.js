@@ -12,6 +12,7 @@ angular.module('todo', ['ionic'])
     if(window.cordova && window.cordova.plugins.Keyboard) {
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
     }
+    
     if(window.StatusBar) {
       StatusBar.styleDefault();
     }
@@ -23,6 +24,7 @@ angular.module('todo', ['ionic'])
     { title: 'Eat mushrooms' },
     { title: 'Get high enough to grab the flag' },
     { title: 'Get high enough to grab the flag' },
+    { title: 'extra' },
     { title: 'Find the Princess' }
   ];
 });
